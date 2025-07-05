@@ -22,6 +22,9 @@ After creating a small enterprise network for a new startup, Ford Trucking Compa
 
 ## What I Did
 
+1. Download Ubuntu Server ISO
+<img src="/images/download_ubuntu_server.png" alt="" width=600/>
+
 ## Lessons Learned
 
 ## Future Improvements
