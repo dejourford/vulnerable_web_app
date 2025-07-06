@@ -35,7 +35,18 @@ After creating a small enterprise network for a new startup, Ford Trucking Compa
 
 5. Assigned a static IP to enp0s8 (host-only adapter)
 
-6. Accessed DVWA from via browser
+6. Installed necessary software (Apache2, MariaDB)
+
+7. Cloned DVWA Repo
+    *cd /var/www/html*
+    *sudo git clone https://github.com/digininja/DVWA.git*
+    *sudo chown -R www-data:www-data DVWA*
+
+8. Configured MariaDB
+    - Created DVWA Database
+    - Granted privileges to user root@localhost
+
+9. Accessed DVWA from via browser
 <img src="/images/access_dvwa.png" alt="" width=600/> 
 
 ## Lessons Learned
