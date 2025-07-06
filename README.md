@@ -25,7 +25,23 @@ After creating a small enterprise network for a new startup, Ford Trucking Compa
 1. Download Ubuntu Server ISO
 <img src="/images/download_ubuntu_server.png" alt="" width=600/>
 
+2. Create Virtual Machine
+<img src="/images/create_virtual_machine.png" alt="" width=600/>
+
+3. Install Ubuntu Server and set up DVWA
+<img src="/images/install_ubuntu.png" alt="" width=600/>
+
+4. Configured networking manually without netplan or dhclient
+
+5. Assigned a static IP to enp0s8 (host-only adapter)
+
+6. Accessed DVWA from via browser
+<img src="/images/access_dvwa.png" alt="" width=600/> 
+
 ## Lessons Learned
+- NAT Adapter is needed for internet access to set everything up properly
+- Had to manually set the IP address since dhclient wouldn't work due to being deprecated
+- Copy and pasting wouldn't work which prevented the use of netplan since syntax is important
 
 ## Future Improvements
 - Add a Kali Linux attacker VM and test DVWA vulnerabilities
