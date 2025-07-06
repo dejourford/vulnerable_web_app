@@ -39,11 +39,11 @@ After creating a small enterprise network for a new startup, Ford Trucking Compa
 
 7. Cloned DVWA Repo
     
-    [cd /var/www/html]
+    `cd /var/www/html`
     
-    [sudo git clone https://github.com/digininja/DVWA.git]
+    `sudo git clone https://github.com/digininja/DVWA.git`
     
-    [sudo chown -R www-data:www-data DVWA]
+    `sudo chown -R www-data:www-data DVWA`
 
 8. Configured MariaDB
     - Created DVWA Database
